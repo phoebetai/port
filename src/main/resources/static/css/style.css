@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+* {
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/room.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100%;
+}
+
+#test {
+	background-image: none;
+}
+
+form {
+/*	border: solid 1px green;
+	background-color: Black;
+	opacity: 0.5;*/
+
+}
+
+h1 {
+	color: #21303D;
+	font-family: "Varela";
+}
+
+#login-form {
+/*	background-color: black;
+	opacity: 0.3;*/
+}
+
+.btn-lg {
+	width: 10%;
+}
+
+.container {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form-control {
+	display: inline-block;
+	width: auto;
+}
+
+.navbar-nav {
+	float: right;
+}
